@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 8</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/orbit.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="css/colorbox.css"/>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+         <nav class="navbar">
+             <ul>
+                 <li><a href="index.html">Главная</a></li>
+                 <li><a href="schedule.html">Расписание</a></li>
+                 <li><a href="news.html">Новости</a></li>
+                 <li><a href="video.html">Видео</a></li>
+                 <li class="navbar-active"><a href="photo.html">Фото</a></li>
+                 <li><a href="slider.html">Slider</a></li>
+                 <li><a href="https:/vk.com">VK</a></li>
+             </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<div id="tabs-1">
+  <ul>
+   <li class="mytab"><a href="#tabs-2">First category</a></li>
+   <li class="mytab"><a href="#tabs-3">Second category</a></li>
+  </ul>
+<div id="tabs-2">
+  <a class="example-image-link" href="images/vik/22b.jpg" data-lightbox="example-set" data-title="First images"><img class="example-image" src="images/vik/22b.jpg" alt="First images"/></a>
+  <a class="example-image-link" href="images/vik/23b.jpg" data-lightbox="example-set" data-title="Second images"><img class="example-image" src="images/vik/23b.jpg" alt="Second images"/></a>
+  <a class="example-image-link" href="images/vik/24b.jpg" data-lightbox="example-set" data-title="Third images"><img class="example-image" src="images/vik/24b.jpg" alt="Third images"/></a>
+  <a class="example-image-link" href="images/vik/25b.jpg" data-lightbox="example-set" data-title="Fourth images"><img class="example-image" src="images/vik/25b.jpg" alt="Fourth images"/></a>
+</div>
+<div id="tabs-3">
+  <p><a class="group1" href="images/vik/26b.jpg" title="First images"><img src="images/vik/26b.jpg" alt="First images"/></a></p>
+  <p><a class="group1" href="images/vik/27b.jpg" title="Second images"><img src="images/vik/27b.jpg" alt="Second images"/></a></p>
+  <p><a class="group1" href="images/vik/28b.jpg" title="Third images"><img src="images/vik/28b.jpg" alt="Third images"/></a></p>
+  <p><a class="group1" href="images/vik/29b.jpg" title="Fourth images"><img src="images/vik/29b.jpg" alt="Fourth images"/></a></p>
+</div>
+</div>
+  <div id="featured">
+    <section>
+      <h1 id="photo">Фотоальбом</h1>
+    <article class="articlePhot">
+    	<a target="_blank"">
+      <div class="contImage">
+        <img src="images/vik/22b.jpg" alt="22b">
+      </div></a>
+      <p class="discPhoto">Vik 1</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank" "><div class="contImage"><img src="images/vik/23b.jpg" alt="23b"></div></a>
+      <p class="discPhoto">Vik 2</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank" "><div class="contImage"><img src="images/vik/24b.jpg" alt="24b"></div></a>
+      <p class="discPhoto">Vik 3</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank""><div class="contImage"><img src="images/vik/25b.jpg" alt="25b"></div></a>
+      <p class="discPhoto">Vik 4</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank" "><div class="contImage"><img src="images/vik/26b.jpg" alt="26b"></div></a>
+      <p class="discPhoto">Vik 5</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank" "><div class="contImage"><img src="images/vik/27b.jpg" alt="27b"></div></a>
+      <p class="discPhoto">Vik 6</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank""><<div class="contImage"><img src="images/vik/28b.jpg" alt="28b"></div></a>
+      <p class="discPhoto">Vik 7</p>
+    </article>
+    <article class="articlePhot">
+    	<a target="_blank" "><div class="contImage"><img src="images/vik/29b.jpg" alt="29b"></div></a>
+      <p class="discPhoto">Vik 8</p>
+    </article>
+    </section>
+  </div>
+  <span class="orbit-caption" id="ezioCaption">This is an <em>awesome caption</em> for Ezio. <strong>Note:</strong> This whole image is linked</span>
+  <span class="orbit-caption" id="marcusCaption">This is an <em>awesome caption</em> for Marcus with a <a href="http://www.zurb.com/playground" target="_blank" style="color: #fff">link</a></span>
+</main>
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="js/jquery.orbit.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script src="js/photo.js"></script>
+</body>
+</html>
